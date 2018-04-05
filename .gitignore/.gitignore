@@ -1,3 +1,5 @@
+vi fibonums.sh#To write a shell script
+#Press "i" to enter input mode.
 #!/bin/bash
 
 if [$# -eq 1]
@@ -22,3 +24,8 @@ do
         f2=$fn
 done
 echo
+
+#After that, press "Esc" to quit input mode, then press ":wq" to save and quit this script. 
+chmod +x fibonums.sh
+./fibonums.sh#To execute this script.
+#Input a number and the result will be listed.
